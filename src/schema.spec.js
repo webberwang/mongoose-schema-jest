@@ -18,9 +18,6 @@ it("mathces the same schema", () => {
     },
   });
 
-  delete schemaA.$id;
-  delete schemaB.$id;
-
   cLog(schemaA);
   cLog(schemaB);
 
