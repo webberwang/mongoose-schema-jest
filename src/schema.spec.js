@@ -4,7 +4,7 @@
 import * as mongoose from "mongoose";
 import util from "util";
 
-it("mathces the same schema", () => {
+it("matches the same schema", () => {
   const schemaA = new mongoose.Schema({
     type: {
       type: mongoose.Schema.Types.String,
